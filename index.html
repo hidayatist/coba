@@ -1,0 +1,106 @@
+<section id="lab" class="screen">
+
+  <div class="container">
+
+    <div class="topbar">
+
+      <div class="logo">
+        🧪 LABORATORIUM KPK & FPB
+      </div>
+
+      <button
+        class="btn btn-secondary"
+        onclick="go('home')">
+
+        ← Beranda
+
+      </button>
+
+    </div>
+
+
+    <h1 class="section-title">
+      Coba Menghitung KPK & FPB
+    </h1>
+
+
+    <p class="subtitle">
+
+      Masukkan dua bilangan untuk melihat
+      faktor, kelipatan, pohon faktor,
+      tabel faktorisasi prima, FPB, dan KPK.
+
+    </p>
+
+
+    <div class="card">
+
+
+      <!-- INPUT BILANGAN -->
+
+      <div class="lab-input-container">
+
+        <div>
+
+          <label>Bilangan A</label>
+
+          <input
+            id="labA"
+            class="input-answer"
+            type="number"
+            min="1"
+            value="12"
+          >
+
+        </div>
+
+
+        <div>
+
+          <label>Bilangan B</label>
+
+          <input
+            id="labB"
+            class="input-answer"
+            type="number"
+            min="1"
+            value="18"
+          >
+
+        </div>
+
+
+        <div class="lab-button-container">
+
+          <button
+            class="btn btn-primary"
+            onclick="runLab()"
+          >
+
+            🔍 Hitung
+
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- HASIL LABORATORIUM -->
+
+      <div
+        id="labResult"
+        class="grow-box"
+      >
+
+        Masukkan dua bilangan kemudian
+        tekan tombol Hitung.
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
